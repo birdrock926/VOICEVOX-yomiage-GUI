@@ -83,7 +83,7 @@
 #### リポジトリのクローンと依存関係のインストール
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/birdrock926/VOICEVOX-yomiage-GUI
 cd yomiage1
 npm install
 ```
