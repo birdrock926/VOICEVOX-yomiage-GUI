@@ -84,7 +84,7 @@
 
 ```bash
 git clone https://github.com/birdrock926/VOICEVOX-yomiage-GUI
-cd yomiage1
+
 npm install
 ```
 
