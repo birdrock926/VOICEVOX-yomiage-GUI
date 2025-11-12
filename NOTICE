@@ -1,0 +1,85 @@
+# Third-Party Software Notices
+
+This application depends on the following third-party software and services.
+Please ensure you comply with their respective licenses and terms of use.
+
+## VOICEVOX
+
+This application requires VOICEVOX, which is developed and distributed separately.
+
+- **Website**: https://voicevox.hiroshiba.jp/
+- **License**: Please refer to VOICEVOX's official terms of use
+- **Terms of Use**: https://voicevox.hiroshiba.jp/term/
+- **Usage**:
+  - VOICEVOX must be installed and running separately
+  - This application communicates with VOICEVOX via HTTP API
+  - Users must comply with VOICEVOX's terms of service
+
+### ずんだもん (Zundamon)
+
+- **Character Design**: by 坂本アヒル (Sakamoto Ahiru)
+- **Voice**: VOICEVOX:ずんだもん
+- **Usage**: Please follow VOICEVOX's character usage guidelines
+
+## Virtual Audio Devices
+
+This application recommends using virtual audio devices for routing audio to voice chat applications.
+
+### VB-CABLE (Windows)
+
+- **Website**: https://vb-audio.com/Cable/
+- **Developer**: VB-Audio Software
+- **License**: Donationware (not included in this application)
+- **Note**: VB-CABLE is NOT included with this application and must be installed separately
+
+### BlackHole (macOS)
+
+- **Website**: https://existential.audio/blackhole/
+- **License**: GPL-3.0
+- **Note**: BlackHole is NOT included with this application and must be installed separately
+
+## Node.js Dependencies
+
+This application uses various open-source Node.js packages. Major dependencies include:
+
+- **React**: MIT License
+- **Electron**: MIT License
+- **Express**: MIT License
+- **Socket.IO**: MIT License
+- **Vite**: MIT License
+- **TailwindCSS**: MIT License
+- **Axios**: MIT License
+
+For a complete list of dependencies and their licenses, please refer to `package.json` and run:
+```bash
+npm list --depth=0
+```
+
+## Disclaimer
+
+This application is provided "as is" without warranty of any kind. The developers are not responsible for:
+
+1. Any issues arising from the use of VOICEVOX
+2. Any issues arising from the use of virtual audio devices
+3. Violations of third-party terms of service by users
+4. Any damages or losses incurred through the use of this software
+
+Users are solely responsible for:
+
+1. Installing and configuring VOICEVOX correctly
+2. Installing and configuring virtual audio devices
+3. Complying with all applicable licenses and terms of service
+4. Using the software in accordance with local laws and regulations
+
+## Attribution
+
+When distributing or modifying this software, please maintain:
+
+1. This NOTICE file
+2. The LICENSE file
+3. Copyright notices in source files
+4. References to third-party software and their licenses
+
+## Contact
+
+For questions about licensing or third-party software usage, please refer to the respective projects' official channels.

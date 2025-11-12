@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/dist
+/release
+
+# Build resources (keep icon files)
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# VOICEVOX generated files (if any)
+*.wav
+zunda.txt
+
+# VOICEVOX Engine (bundled separately)
+voicevox-engine/*
+!voicevox-engine/README.md
+
+# VB-CABLE installer (bundled separately)
+build/vbcable/*.exe
+build/vbcable/*.zip
+!build/vbcable/README.md
+
+# 7-Zip tools (bundled separately)
+build/tools/7z/*.exe
+build/tools/7z/*.dll
+!build/tools/7z/README.md
+
+# Application logs
+app.log
